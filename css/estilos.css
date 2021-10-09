@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+/* #F9A826 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+}
+.contenedor_titulo{
+    background-color: #F9A826;
+    text-align: center;
+    height: 10%;
+    padding: 15px 0;
+}
+.form_cliente{
+    height: 90%;
+    background: url(../img/shucos.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 0 15px;
+}
+.formulario{
+    position: relative;
+    top: 5%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    text-align: center;
+    border-radius: 15px;
+}
+.formulario input#cliente{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #cccac6;
+    text-align: center;
+}
+.formulario input#cliente:focus{
+    border-bottom: 2px solid #F9A826;
+}
+.elemento{
+    display: flex;
+    border-bottom: 1.5px solid #F9A826;
+    padding: 15px 0;
+}
+.elemento li{
+    list-style: none;
+    display: inline-block;
+    width: 35%;
+    margin: 0 3px;
+}
+.elemento button{
+    list-style: none;
+    width: 25px;
+    color: #fff;
+    background: #F9A826;
+    margin: 0 2px;
+    padding:2px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.elemento p{
+    list-style: none;
+    margin: 0 2px;
+    font-size: 20px;
+    /* display: inline-block; */
+    
+    /* margin-right: 10%; */
+}
+.elemento input{
+    width: 40%;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #cccac6;
+    outline: none;
+}
+.elemento input:focus{
+    border-bottom: 2px solid #F9A826;
+}
+.cuentas{
+    position: relative;
+    height: auto;
+    background: #2266e4;
+    text-align: center;
+}
+.linea{
+    width: 90%;
+    margin: auto;
+    border-bottom: 1.5px solid #ffffff;
+}
+.add{
+    width: 100px;
+    height: 35px;
+    border: none;
+    background: #ffffff;
+    box-shadow: 5px 5px #2266e4;
+}
+.lista{
+    list-style: none;
+}
+.lista .linea li:first-child{
+    background: #15449b;
+    color: #fff;
+}
